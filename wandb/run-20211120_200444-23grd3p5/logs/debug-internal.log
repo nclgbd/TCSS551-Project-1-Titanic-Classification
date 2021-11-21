@@ -1,0 +1,342 @@
+2021-11-20 20:04:49,376 INFO    MainThread:13644 [internal.py:wandb_internal():87] W&B internal server running at pid: 13644, started at: 2021-11-20 20:04:49.376649
+2021-11-20 20:04:49,378 INFO    WriterThread:13644 [datastore.py:open_for_write():77] open: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\run-23grd3p5.wandb
+2021-11-20 20:04:49,378 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: check_version
+2021-11-20 20:04:49,380 DEBUG   SenderThread:13644 [sender.py:send():238] send: header
+2021-11-20 20:04:49,380 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: check_version
+2021-11-20 20:04:49,464 DEBUG   SenderThread:13644 [sender.py:send():238] send: run
+2021-11-20 20:04:49,642 INFO    SenderThread:13644 [dir_watcher.py:__init__():169] watching files in: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files
+2021-11-20 20:04:49,642 INFO    SenderThread:13644 [sender.py:_start_run_threads():825] run started: 23grd3p5 with start time 1637467488
+2021-11-20 20:04:49,642 DEBUG   SenderThread:13644 [sender.py:send():238] send: summary
+2021-11-20 20:04:49,642 INFO    SenderThread:13644 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-20 20:04:49,643 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: run_start
+2021-11-20 20:04:49,658 DEBUG   HandlerThread:13644 [meta.py:__init__():40] meta init
+2021-11-20 20:04:49,658 DEBUG   HandlerThread:13644 [meta.py:__init__():54] meta init done
+2021-11-20 20:04:49,658 DEBUG   HandlerThread:13644 [meta.py:probe():214] probe
+2021-11-20 20:04:49,705 DEBUG   HandlerThread:13644 [meta.py:_setup_git():204] setup git
+2021-11-20 20:04:49,762 DEBUG   HandlerThread:13644 [meta.py:_setup_git():211] setup git done
+2021-11-20 20:04:49,762 DEBUG   HandlerThread:13644 [meta.py:_save_pip():58] save pip
+2021-11-20 20:04:49,762 DEBUG   HandlerThread:13644 [meta.py:_save_pip():72] save pip done
+2021-11-20 20:04:49,762 DEBUG   HandlerThread:13644 [meta.py:_save_conda():79] save conda
+2021-11-20 20:04:50,645 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\requirements.txt
+2021-11-20 20:04:50,645 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\conda-environment.yaml
+2021-11-20 20:04:50,645 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-summary.json
+2021-11-20 20:04:51,373 DEBUG   HandlerThread:13644 [meta.py:_save_conda():89] save conda done
+2021-11-20 20:04:51,373 DEBUG   HandlerThread:13644 [meta.py:probe():252] probe done
+2021-11-20 20:04:51,437 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:04:51,437 DEBUG   SenderThread:13644 [sender.py:send():238] send: files
+2021-11-20 20:04:51,437 INFO    SenderThread:13644 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-11-20 20:04:51,437 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:04:51,437 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:04:51,438 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:04:51,571 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:04:51,644 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\conda-environment.yaml
+2021-11-20 20:04:51,644 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-metadata.json
+2021-11-20 20:04:51,645 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log
+2021-11-20 20:04:51,881 INFO    Thread-17 :13644 [upload_job.py:push():137] Uploaded file C:\Users\nicol\AppData\Local\Temp\tmpdvavwsfzwandb\3ije0sz8-wandb-metadata.json
+2021-11-20 20:05:06,573 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:05:06,573 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:05:21,703 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:05:21,703 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:05:36,874 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:05:36,874 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:05:52,012 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:05:52,012 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:06:07,201 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:06:07,201 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:06:22,342 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:06:22,342 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:06:37,481 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:06:37,481 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:06:52,625 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:06:52,625 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:07:07,799 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:07:07,799 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:07:22,987 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:07:22,987 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:07:38,130 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:07:38,131 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:07:53,272 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:07:53,272 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:08:08,411 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:08:08,411 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:08:23,554 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:08:23,554 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:08:38,695 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:08:38,695 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:08:53,838 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:08:53,838 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:09:08,977 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:09:08,977 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:09:24,164 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:09:24,164 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:09:39,305 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:09:39,305 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:09:54,440 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:09:54,440 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:10:09,587 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:10:09,587 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:10:24,781 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:10:24,781 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:10:39,960 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:10:39,960 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:10:55,108 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:10:55,108 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:11:10,296 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:11:10,296 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:11:25,432 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:11:25,432 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:11:40,573 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:11:40,573 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:11:55,764 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:11:55,764 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:12:10,913 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:12:10,913 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:12:26,064 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:12:26,064 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:12:41,205 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:12:41,205 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:12:56,350 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:12:56,350 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:13:11,490 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:13:11,490 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:13:26,633 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:13:26,633 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:13:41,824 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:13:41,824 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:13:56,963 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:13:56,963 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:14:12,141 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:14:12,141 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:14:27,279 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:14:27,279 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:14:42,476 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:14:42,476 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:14:57,655 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:14:57,655 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:15:12,793 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:15:12,793 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:15:27,986 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:15:27,986 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:15:43,137 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:15:43,137 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:15:58,278 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:15:58,278 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:16:13,487 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:16:13,487 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:16:28,641 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:16:28,641 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:16:43,782 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:16:43,782 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:16:59,032 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:16:59,032 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:17:14,209 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:17:14,209 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:17:29,350 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:17:29,350 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:17:43,288 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:17:43,288 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:17:43,700 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:17:43,700 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:17:43,758 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:17:44,494 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:17:44,494 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:17:59,640 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:17:59,641 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:18:14,779 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:18:14,779 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:18:29,927 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:18:29,927 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:18:45,069 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:18:45,070 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:19:00,245 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:19:00,245 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:19:15,378 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:19:15,378 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:19:30,508 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:19:30,509 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:19:45,641 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:19:45,641 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:19:51,461 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:19:51,461 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:19:51,467 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:19:51,467 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:19:51,526 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:19:52,186 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log
+2021-11-20 20:20:00,815 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:20:00,815 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:20:15,960 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:20:15,961 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:20:31,106 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:20:31,106 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:20:46,242 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:20:46,243 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:21:01,386 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:21:01,386 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:21:16,565 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:21:16,566 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:21:31,758 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:21:31,758 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:21:40,028 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:21:40,028 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:21:40,028 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:21:40,029 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:21:40,095 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:21:41,570 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:21:41,570 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:21:41,589 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:21:41,589 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:21:41,638 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:21:46,892 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:21:46,892 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:21:48,679 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:21:48,679 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:21:48,698 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:21:48,698 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:21:48,745 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:02,038 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:22:02,038 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:22:13,751 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:13,751 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:13,770 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:22:13,770 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:22:13,836 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:17,191 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:22:17,191 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:22:28,179 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:28,179 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:28,179 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:22:28,180 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:22:28,242 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:29,542 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:29,543 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:29,548 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:22:29,548 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:22:29,628 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:32,274 INFO    Thread-12 :13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log
+2021-11-20 20:22:32,322 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: stop_status
+2021-11-20 20:22:32,322 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: stop_status
+2021-11-20 20:22:35,380 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:35,380 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:35,381 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:22:35,381 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:22:35,443 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:36,707 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:36,707 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:36,708 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: pause
+2021-11-20 20:22:36,708 INFO    HandlerThread:13644 [handler.py:handle_request_pause():612] stopping system metrics thread
+2021-11-20 20:22:36,774 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:39,761 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: resume
+2021-11-20 20:22:39,761 INFO    HandlerThread:13644 [handler.py:handle_request_resume():603] starting system metrics thread
+2021-11-20 20:22:40,310 DEBUG   SenderThread:13644 [sender.py:send():238] send: telemetry
+2021-11-20 20:22:40,310 DEBUG   SenderThread:13644 [sender.py:send():238] send: exit
+2021-11-20 20:22:40,310 INFO    SenderThread:13644 [sender.py:send_exit():370] handling exit code: 1
+2021-11-20 20:22:40,310 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:40,310 INFO    SenderThread:13644 [sender.py:send_exit():372] handling runtime: 3
+2021-11-20 20:22:40,311 INFO    SenderThread:13644 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-20 20:22:40,311 INFO    SenderThread:13644 [sender.py:send_exit():382] send defer
+2021-11-20 20:22:40,311 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:40,312 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,312 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 0
+2021-11-20 20:22:40,312 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,312 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-11-20 20:22:40,312 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 1
+2021-11-20 20:22:40,312 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,312 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 1
+2021-11-20 20:22:40,428 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,428 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:40,428 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-11-20 20:22:40,428 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 2
+2021-11-20 20:22:40,429 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:40,429 DEBUG   SenderThread:13644 [sender.py:send():238] send: stats
+2021-11-20 20:22:40,429 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,429 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 2
+2021-11-20 20:22:40,429 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,430 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-11-20 20:22:40,430 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 3
+2021-11-20 20:22:40,430 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,430 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 3
+2021-11-20 20:22:40,430 DEBUG   SenderThread:13644 [sender.py:send():238] send: summary
+2021-11-20 20:22:40,430 INFO    SenderThread:13644 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-11-20 20:22:40,431 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,431 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-11-20 20:22:40,431 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 4
+2021-11-20 20:22:40,431 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,431 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 4
+2021-11-20 20:22:40,431 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,431 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-11-20 20:22:40,529 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:40,586 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 5
+2021-11-20 20:22:40,587 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:40,587 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:40,587 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 5
+2021-11-20 20:22:40,587 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:40,587 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-11-20 20:22:40,587 INFO    SenderThread:13644 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-11-20 20:22:40,688 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,279 INFO    SenderThread:13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-summary.json
+2021-11-20 20:22:41,279 INFO    SenderThread:13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\config.yaml
+2021-11-20 20:22:41,280 INFO    SenderThread:13644 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log
+2021-11-20 20:22:41,280 INFO    SenderThread:13644 [dir_watcher.py:finish():313] scan: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files
+2021-11-20 20:22:41,280 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\conda-environment.yaml conda-environment.yaml
+2021-11-20 20:22:41,280 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\config.yaml config.yaml
+2021-11-20 20:22:41,281 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log output.log
+2021-11-20 20:22:41,286 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\requirements.txt requirements.txt
+2021-11-20 20:22:41,289 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-metadata.json wandb-metadata.json
+2021-11-20 20:22:41,291 INFO    SenderThread:13644 [dir_watcher.py:finish():327] scan save: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-summary.json wandb-summary.json
+2021-11-20 20:22:41,294 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 6
+2021-11-20 20:22:41,295 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,296 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:41,298 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 6
+2021-11-20 20:22:41,300 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:41,300 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-11-20 20:22:41,300 INFO    SenderThread:13644 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-20 20:22:41,397 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,397 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,499 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,499 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,601 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,601 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,702 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,702 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,734 INFO    Thread-29 :13644 [upload_job.py:push():137] Uploaded file d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\conda-environment.yaml
+2021-11-20 20:22:41,743 INFO    Thread-32 :13644 [upload_job.py:push():137] Uploaded file d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\requirements.txt
+2021-11-20 20:22:41,786 INFO    Thread-30 :13644 [upload_job.py:push():137] Uploaded file d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\config.yaml
+2021-11-20 20:22:41,788 INFO    Thread-31 :13644 [upload_job.py:push():137] Uploaded file d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\output.log
+2021-11-20 20:22:41,804 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,804 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:41,834 INFO    Thread-33 :13644 [upload_job.py:push():137] Uploaded file d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\files\wandb-summary.json
+2021-11-20 20:22:41,906 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:41,906 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:42,007 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:42,007 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:42,036 INFO    Thread-11 (_thread_body):13644 [sender.py:transition_state():395] send defer: 7
+2021-11-20 20:22:42,036 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:42,036 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 7
+2021-11-20 20:22:42,036 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:42,036 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-11-20 20:22:42,109 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:42,224 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 8
+2021-11-20 20:22:42,224 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:42,225 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:42,225 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 8
+2021-11-20 20:22:42,225 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:42,225 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-11-20 20:22:42,225 INFO    SenderThread:13644 [sender.py:transition_state():395] send defer: 9
+2021-11-20 20:22:42,226 DEBUG   SenderThread:13644 [sender.py:send():238] send: final
+2021-11-20 20:22:42,226 DEBUG   SenderThread:13644 [sender.py:send():238] send: footer
+2021-11-20 20:22:42,226 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: defer
+2021-11-20 20:22:42,226 INFO    HandlerThread:13644 [handler.py:handle_request_defer():147] handle defer: 9
+2021-11-20 20:22:42,226 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: defer
+2021-11-20 20:22:42,226 INFO    SenderThread:13644 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-11-20 20:22:42,326 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: poll_exit
+2021-11-20 20:22:42,326 DEBUG   SenderThread:13644 [sender.py:send_request():252] send_request: poll_exit
+2021-11-20 20:22:42,326 INFO    SenderThread:13644 [file_pusher.py:join():182] waiting for file pusher
+2021-11-20 20:22:42,565 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: get_summary
+2021-11-20 20:22:42,565 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: sampled_history
+2021-11-20 20:22:42,566 DEBUG   HandlerThread:13644 [handler.py:handle_request():130] handle_request: shutdown
+2021-11-20 20:22:42,566 INFO    HandlerThread:13644 [handler.py:finish():731] shutting down handler
+2021-11-20 20:22:43,227 INFO    WriterThread:13644 [datastore.py:close():281] close: d:\Documents\Academics\Fall 2021\TCSS551\Project-1-Titanic-Classification\wandb\run-20211120_200444-23grd3p5\run-23grd3p5.wandb
+2021-11-20 20:22:43,564 INFO    SenderThread:13644 [sender.py:finish():1091] shutting down sender
+2021-11-20 20:22:43,564 INFO    SenderThread:13644 [file_pusher.py:finish():177] shutting down file pusher
+2021-11-20 20:22:43,564 INFO    SenderThread:13644 [file_pusher.py:join():182] waiting for file pusher
+2021-11-20 20:22:43,566 INFO    MainThread:13644 [internal.py:handle_exit():77] Internal process exited
