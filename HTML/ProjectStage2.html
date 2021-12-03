@@ -15733,16 +15733,16 @@ Sweep URL: https://wandb.ai/nclgbd/Titanic-Classification/sweeps/i948icng
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Running the code above will cause a sweep to run on the weights and biases account, and since there were multiple runs, I will point out key things from certain sweeps:</p>
 <h3 id="kvix799f"><a href="https://wandb.ai/nclgbd/Titanic-Classification/sweeps/kvix799f">kvix799f</a><a class="anchor-link" href="#kvix799f">&#182;</a></h3><div>
-<img src="media/kvix799f-sweep.png" width="600" height="300"/>
+<img src="https://raw.githubusercontent.com/nclgbd/TCSS551-Project-1-Titanic-Classification/master/media/kvix799f-sweep.png" width="600" height="300"/>
 </div><p>Look at the different hyperparameters above, it's clear that runs where <code>min_samples_leaf=1</code> and <code>n_esimators=5000</code> were yielding better accuracy, which is supported by the negative correlation and positive correlations with the average accuracy respectively. It was still possible that the <code>n_estimators=10000</code> may have performed poorly due to the <code>min_samples_leaf=75</code>, however on subsuquent sweeps it seemed that <code>5000 &lt;= n_estimators &lt;= 10000</code> had no real effect.</p>
 <div>
-<img src="media/kvix799f-avgacc-vs-msl.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/kvix799f-avgacc-vs-msl.png?raw=true" width="600" height="300"/>
 </div><p>Here, we can see the negative correlation between the average accuracy and minimum sample leaves</p>
 <div>
-<img src="media/kvix799f-nestim-vs-acc.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/kvix799f-nestim-vs-acc.png?raw=true" width="600" height="300"/>
 </div><p>Here, we can see the positive correlation between the average accuracy and the number of estimators (<code>n_estimators=10000</code> being an outlier)</p>
 <h3 id="rfc-61a88"><a href="https://wandb.ai/nclgbd/Titanic-Classification/sweeps/llyby93t">rfc-61a88</a><a class="anchor-link" href="#rfc-61a88">&#182;</a></h3><div>
-<img src="media/rfc-61a88-entropy-better-than-gini.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/rfc-61a88-entropy-better-than-gini.png?raw=true" width="600" height="300"/>
 </div><p>I felt comfortable setting <code>min_samples_leaf=1</code> and <code>5000 &lt;= n_estimators &lt;= 6000</code>, so all that was left was to decide the loss function. Sklearn's <code>RandomForestClassifier</code> offers two: <a href="https://en.wikipedia.org/wiki/Cross_entropy">cross entropy</a> and <a href="https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb">gini</a>, and so I did more random searches using a the two cross entropy's and an <code>int_uniform</code> distribution search for <code>n_estimators</code> between 5000 and 6000. It seemed pretty clear that this range had a minimal effect on the performance, but cross entropy performed better than gini.</p>
 <p>And with that, we're ready to train once more:</p>
 
@@ -16001,17 +16001,17 @@ Average AUC Score: 0.79432 +/- 0.0271
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I'll perform a similar process as I did in the previous section:</p>
 <h3 id="dtc-61a97"><a href="https://wandb.ai/nclgbd/Titanic-Classification/sweeps/xha81scg?workspace=user-nclgbd">dtc-61a97</a><a class="anchor-link" href="#dtc-61a97">&#182;</a></h3><div>
-<img src="media/dtc-61a97-best-splitter-low-min-leaves.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/dtc-61a97-best-splitter-low-min-leaves.png?raw=true" width="600" height="300"/>
 </div><p>Looking at this graph, 2 things seem immediately clear:
 1) Using <code>splitter='best'</code> is performing better on average than <code>splitter='random'</code></p>
 <div>
-<img src="media/dtc-61a97-avgacc-vs-msl.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/dtc-61a97-avgacc-vs-msl.png?raw=true" width="600" height="300"/>
 </div><p>2) <code>min_samples_leaf</code> seems to perform better with values between 1 and 50. This is also supported by the graph above</p>
 <h3 id="dtc-dafa4"><a href="https://wandb.ai/nclgbd/Titanic-Classification/sweeps/tesn5duc?workspace=user-nclgbd">dtc-dafa4</a><a class="anchor-link" href="#dtc-dafa4">&#182;</a></h3><div>
-<img src="media/dafa4-msl-vs-acc.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/dafa4-msl-vs-acc.png?raw=true" width="600" height="300"/>
 </div><p>From this graph we can see that there is a positive correlation between the <code>min_samples_leaf</code>and the average accuracy, it made me wonder if we needed more runs with a higher <code>min_samples_leaf</code>.</p>
 <div>
-<img src="media/dtc-10182-sweep.png" width="600" height="300"/>
+<img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/dtc-10182-sweep.png?raw=true" width="600" height="300"/>
 </div><p>However, changing the search to be <a href="https://wandb.ai/nclgbd/Titanic-Classification/sweeps/l9pnjefv?workspace=user-nclgbd">50-100 leaves</a>, it's was clear that <code>min_samples_leaf=50</code> seems to be the sweet spot for this metric. Looking at the criterion, it's also clear that entropy is performing better than gini again, so we'll be using this criterion:</p>
 
 </div>
@@ -16860,7 +16860,7 @@ auc p-value:  0.7186952454819259
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="media\rfc_sub.PNG" alt=""></p>
+<p><img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/rfc_sub.PNG?raw=true" alt=""></p>
 
 </div>
 </div>
@@ -16886,7 +16886,7 @@ auc p-value:  0.7186952454819259
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="media/dtc_sub.PNG" alt=""></p>
+<p><img src="https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification/blob/master/media/dtc_sub.PNG?raw=true" alt=""></p>
 
 </div>
 </div>
@@ -16894,7 +16894,7 @@ auc p-value:  0.7186952454819259
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Well.... they both seem to be getting the same score after some minor tweaking (dropping less relevant features like <code>passengerid</code> and <code>embarked</code>).</p>
+<p>Well.... they both seem to be getting the similar scores...</p>
 
 </div>
 </div>
@@ -16902,7 +16902,7 @@ auc p-value:  0.7186952454819259
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>Placing 4337/14411 I think is a pretty nice achievement, though there's still some more things I could have done to optimize the models. Sklearn's <code>RandomForestClassifier</code> and <code>DecisionTreeClassifier</code> have many different parameters that can be tuned, so performing more searches on those hyperparameters will like yield better results. Based off the ttest, neither model implementation seems to be significantly better than the other, and this is further seen by getting the same exact score upon submission.</p>
+<h1 id="Conclusion">Conclusion<a class="anchor-link" href="#Conclusion">&#182;</a></h1><p>Placing 4337/14411 I think is a pretty nice achievement, though there's still some more things I could have done to optimize the models. Sklearn's <code>RandomForestClassifier</code> and <code>DecisionTreeClassifier</code> have many different parameters that can be tuned, so performing more searches on those hyperparameters will like yield better results. Based off the ttest, neither model implementation seems to be significantly better than the other, and this is further seen by getting a similar score upon submission.</p>
 <p>From this project I learned better ways to compare models, and I especially liked using this project to experiment with Weights and Biases, as it made the hyperparameter tuning really easy, and they gave back very nice interactive graphs. I suggest anyone reading this notebook go to the sweep workspaces linked throughout the hyperparameter sweep section, and you can play with the data that's in there. There are other metrics that I used when analyzing the sweeps that I did not go over so much, i.e., correlation between parameters, confusion matrices, metric results from all of the runs, etc. It was nice to have one place to be able to look and recall different runs I did, and I will definitely be using this tool in the future.</p>
 
 </div>
