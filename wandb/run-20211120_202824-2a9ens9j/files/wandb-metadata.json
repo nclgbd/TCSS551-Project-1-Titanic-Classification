@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.10.0",
+    "heartbeatAt": "2021-11-21T04:28:26.568559",
+    "startedAt": "2021-11-21T04:28:24.817970",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"5695e78c-dd8c-4771-b474-d724f7d09276\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\nicol\\AppData\\Local\\Temp\\tmp-7048YDAXqL3iTq38.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/nclgbd/TCSS551-Project-1-Titanic-Classification.git",
+        "commit": "33b430da9cd6a82698ab722f6f93b1d414700ba3"
+    },
+    "email": "nicoleguob@gmail.com",
+    "root": "d:/Documents/Academics/Fall 2021/TCSS551/Project-1-Titanic-Classification",
+    "host": "DESKTOP-0OBMBVO",
+    "username": "nicol",
+    "executable": "C:\\Users\\nicol\\Anaconda3\\envs\\tcss551_titanic\\python.exe"
+}

@@ -1,3 +1,7 @@
 .vscode
 .kaggle
 scripts/Project_Stage_1_Prediction.ipynb
+models/
+**/__pycache__
+config/
+wandb/
